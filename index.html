@@ -1,70 +1,170 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>About me page</title>
-
-<!-- CSS only -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
-<!-- JS, Popper.js, and jQuery -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-
-<link rel="stylesheet" href="styles.css">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" 
+        crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./Assets/CSS/style.css">
+    <title>Welcome to my portfolio page!</title>
 </head>
-
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light mynav">
-        <a class="navbar-brand" href="#">Will Tham</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    <!-- End of my nav -->
+    <!-- Navigation Start -->
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#homeTitle">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#aboutTitle">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#portfolioTitle">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contactTitle">Contact</a>
+                  </li>
+                </ul>
+              </div>
+          </nav>
+    </div>
+    <!-- Navigation End -->
 
-    <div class="container">
+    <!-- Background Start -->
+    <div id="homeTitle">
+        <img src="./Assets/Image/Background-website-01.jpg" alt="A background image of random connected vectors." class="img-fluid">
+    </div>
+    <div class="heading-content text-center">
+        <h5>Hello, I'm</h5>
+        <h1>Will Tham</h1>
+        <p>A Full-stack Developer</p>
+    </div>
+    <!-- Background End -->
+
+    <!-- About Start -->
+    <div id="aboutTitle" class="post-heading text-center">
+        <h3 class="display-4 font-weight-bold">About Me</h3>
+    </div>
+    <div id="about" class="container mt-5 pb-5">
+        
         <div class="row">
-          <div class="col-md-8">
-            <div class="page-header">
-              <h1>About Me</h1>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <img src="./Image/Me.png" alt="A rounded profile picture for myself." class="avatar img-fluid">
             </div>
-            <div class="row">
-              <div class="col-md-3">
-                <img src="./orange.jpg" alt="Orange" class="img-thumbnail">
-              </div>
-              <div class="col-md-9">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, voluptates suscipit expedita reprehenderit sit, minus eveniet, sed nisi iusto hic dolorem facilis aperiam? Molestias a tempora non quas cum beatae.
-                  Explicabo exercitationem dolor debitis facilis rem praesentium aperiam! Nisi in corporis nesciunt minima quod debitis sequi iusto molestias, earum totam explicabo rerum vel voluptatibus velit deleniti distinctio reprehenderit illo. Libero!
-                  Dicta ipsum corrupti soluta accusantium laborum architecto rerum! Dignissimos saepe temporibus soluta error et maxime quos tenetur. Excepturi doloribus officia, aperiam, quibusdam quis provident, est natus asperiores quam maxime alias.
-                </p>
-                <div class="row-md-9">
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, nobis possimus? Aspernatur voluptate officia, quam quia tempore reprehenderit, perferendis tempora itaque doloremque asperiores impedit voluptatibus repellendus esse iusto recusandae labore!
-                </p>
-                </div>
-              </div>
-            </div>
-          </div>
-    
-</body>
 
+            <div class="col-lg-9 col-md-6 col-sm-12">
+                <h2>Web Development!!!</h2>
+                <p>I am a Full Stack Web Developer in training from California, Sacramento. I have experience in MySql, Node.js,  MongoDB, Express.js, and much more im still tackling!</p>
+                <p>My E-mail: tham.will00@gmail.com</p>
+                <p>My Phone Number: +1(916)995-9119</p>
+                <button class="btn">
+                    <a href="https://www.linkedin.com/in/will-tham-0b61381b4/">LINKEDIN</a>
+                </button>
+                <button class="btn">
+                    <a href="In Progress">MY RESUME(In Progress)</a>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Portfolio Start -->
+    <div id="portfolioTitle" class="post-heading text-center">
+        <h3 class="display-4 font-weight-bold">Portfolio</h3>
+    </div>
+    <div id="portfolio" class="container mt-5 pb-5">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="./Image/Capture.PNG" class="card-img-top" alt="Screenshot for a project">
+                    <div class="card-body">
+                      <h5 class="card-title">Project 1</h5>
+                      <p class="card-text">A full stack project that took everything we learned about HTML, CSS, and Javascript. </p>
+                      <a href="https://willtham1.github.io/first.project/" class="btn btn-dark">Live Preview</a>
+                      <a href="https://github.com/willtham1/first.project" class="btn btn-dark">GitHub Repo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="./Image/Password Generator.png" class="card-img-top" alt="Screenshot for a project">
+                    <div class="card-body">
+                      <h5 class="card-title">Password Generator</h5>
+                      <p class="card-text">A project that took javascript by itself to generate a password for you.</p>
+                      <a href="https://willtham1.github.io/Homework/">Live Preview</a>
+                      <a href="https://github.com/Dragontalker/Project2_fluxIM" class="btn btn-dark">GitHub Repo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="./Image/Note taker.PNG" class="card-img-top" alt="Screenshot for a project">
+                    <div class="card-body">
+                      <h5 class="card-title">Note Taker</h5>
+                      <p class="card-text">A web application that allows user to write down quick notes and track them with ease.</p>
+                      <a href="https://safe-retreat-67509.herokuapp.com/" class="btn btn-dark">Live Preview</a>
+                      <a href="https://github.com/willtham1/11-Note-Taker" class="btn btn-dark">GitHub Repo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="./Image/escape.PNG" class="card-img-top" alt="Screenshot for a project">
+                    <div class="card-body">
+                      <h5 class="card-title">Project 3</h5>
+                      <p class="card-text">The final project we had for Boot Camp Spot that used Node.js, React.js, and Express.js.</p>
+                      <a href="" class="btn btn-dark">Live Preview</a>
+                      <a href="https://github.com/willtham1/escape-room" class="btn btn-dark">GitHub Repo</a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <button class="button btn-dark w-50 max-auto mt-10 mb-5">
+                <a href="https://github.com/willtham1">VISIT MY GITHUB</a>
+            </button>
+        </div>
+    </div>
+    <!-- Portfolio End -->
+
+    <!-- Contact Start -->
+    <div id="contactTitle" class="posting-heading text-center">
+            <h3 class="display-4 font-weight-bold">Contact</h3>
+        </div>
+    <div id="contact" class="container mt-5 mb-5 w-50 max-auto">
+        <form action="">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" class="form-control" id="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email address:</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+                <label for="name">Your Message:</label>
+                <textarea class="form-control"></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark">Submit</button>
+        </form>
+    </div>
+    <!-- Contact End -->
+    
+    <script src="Assets/JavaScript/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" 
+        crossorigin="anonymous">
+    </script>
+</body>
 </html>

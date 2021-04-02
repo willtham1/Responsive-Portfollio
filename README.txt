@@ -1,1 +1,0 @@
-I was able to create a form page for the email. I added the about me page and I was able to add a somewhat responsive picture screen. BUt only issue I have was i think i forgot to add a submit button for my email form.
